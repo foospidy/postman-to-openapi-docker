@@ -4,4 +4,4 @@
 # p2o --help
 # p2o ./path/to/collection.json -f ./path/to/results.yml
 
-docker run -t --rm=true -v $(pwd):/working -w /working postman-to-openapi $@
+docker run -t --rm=true -v ${pwd}:/working -w /working postman-to-openapi $@
